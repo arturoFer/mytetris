@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Tetris</title>
+</head>
+<body>
+	<button id="open-help" class="button-help">?</button>
+	<div class="board">
+		<div id="score"></div>
+		<canvas id="tetris" width="240" height="400"></canvas>
+	</div>
+	<div id="myModal" class="modal hidden">
+		<div class="help">
+			<span id="close-help" class="close-button">&times;</span>
+			<div class="texto">
+				<h3>INSTRUCCIONES</h3>
+				<p>Pulse Enter para Comenzar o Pausar el juego</p>
+				<p>Pulse &leftarrow; para desplazarse a la izquierda</p>
+				<p>Pulse &rightarrow; para desplazarse a la derecha</p>
+				<p>Pulse &downarrow; para bajar mas rápidamente</p>
+				<p>Pulse la barra espaciadora para bajar hasta el final</p>
+				<p>Pulse la letra Q para rotar a la izquierda</p>
+				<p>Pulse la letra W para rotar a la derecha</p>
+				<p>Pulse &uparrow; para aumentar la dificultad del juego</p>
+			</div>
+		</div>
+	</div>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
